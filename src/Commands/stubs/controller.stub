@@ -1,0 +1,35 @@
+<?php
+
+namespace {namespace};
+
+use AI\Base\AIController;
+use Illuminate\Http\Request;
+
+class {controller} extends AIController
+{
+    public function index(Request $request)
+    {
+
+    }
+
+    public function store(Request $request)
+    {
+
+    }
+
+    public function show($id)
+    {
+
+    }
+
+
+    public function update($id, Request $request)
+    {
+
+    }
+
+    public function destroy($id)
+    {
+
+    }
+}

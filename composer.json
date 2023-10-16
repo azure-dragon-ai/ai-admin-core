@@ -1,0 +1,49 @@
+{
+    "name": "aiadmin/core",
+    "description": "ai admin core package",
+    "type": "library",
+    "keywords": [
+        "package",
+        "dependency",
+        "autoload"
+    ],
+    "homepage": "https://github.com/azure-dragon-ai/ai-admin-core",
+    "version": "v0.0.1",
+    "require": {
+        "php": "^8.1",
+        "ext-pdo": "*",
+        "ext-zip": "*",
+        "laravel/sanctum": "^3.2",
+        "maatwebsite/excel": "^3.1",
+        "laravel/prompts": "^0.1.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "AI\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PeterZhang",
+            "email": "zhangchunsheng423@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AI\\Providers\\AIAdminServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
