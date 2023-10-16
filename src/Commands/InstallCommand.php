@@ -322,7 +322,7 @@ class InstallCommand extends AICommand
  初始账号: ai@luomor.com
  初始密码: aiadmin', AIAdmin::VERSION));
 
-        $this->support();
+        // $this->support();
     }
 
     /**
